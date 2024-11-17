@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="t_tableList" msprop:Generator_TableClassName="t_tableListDataTable" msprop:Generator_TableVarName="tablet_tableList" msprop:Generator_TablePropName="t_tableList" msprop:Generator_RowDeletingName="t_tableListRowDeleting" msprop:Generator_RowChangingName="t_tableListRowChanging" msprop:Generator_RowEvHandlerName="t_tableListRowChangeEventHandler" msprop:Generator_RowDeletedName="t_tableListRowDeleted" msprop:Generator_UserTableName="t_tableList" msprop:Generator_RowChangedName="t_tableListRowChanged" msprop:Generator_RowEvArgName="t_tableListRowChangeEvent" msprop:Generator_RowClassName="t_tableListRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TABLE_CATALOG" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="TABLE_CATALOG" msprop:Generator_ColumnVarNameInTable="columnTABLE_CATALOG" msprop:Generator_ColumnPropNameInTable="TABLE_CATALOGColumn" msprop:Generator_UserColumnName="TABLE_CATALOG" type="xs:string" minOccurs="0" />
+              <xs:element name="TABLE_SCHEMA" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="TABLE_SCHEMA" msprop:Generator_ColumnVarNameInTable="columnTABLE_SCHEMA" msprop:Generator_ColumnPropNameInTable="TABLE_SCHEMAColumn" msprop:Generator_UserColumnName="TABLE_SCHEMA" type="xs:string" minOccurs="0" />
+              <xs:element name="TABLE_NAME" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="TABLE_NAME" msprop:Generator_ColumnVarNameInTable="columnTABLE_NAME" msprop:Generator_ColumnPropNameInTable="TABLE_NAMEColumn" msprop:Generator_UserColumnName="TABLE_NAME" type="xs:string" minOccurs="0" />
+              <xs:element name="TABLE_TYPE" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="TABLE_TYPE" msprop:Generator_ColumnVarNameInTable="columnTABLE_TYPE" msprop:Generator_ColumnPropNameInTable="TABLE_TYPEColumn" msprop:Generator_UserColumnName="TABLE_TYPE" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="list" msprop:Generator_TableClassName="listDataTable" msprop:Generator_TableVarName="tablelist" msprop:Generator_TablePropName="list" msprop:Generator_RowDeletingName="listRowDeleting" msprop:Generator_RowChangingName="listRowChanging" msprop:Generator_RowEvHandlerName="listRowChangeEventHandler" msprop:Generator_RowDeletedName="listRowDeleted" msprop:Generator_UserTableName="list" msprop:Generator_RowChangedName="listRowChanged" msprop:Generator_RowEvArgName="listRowChangeEvent" msprop:Generator_RowClassName="listRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:nullValue="" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
